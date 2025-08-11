@@ -1,0 +1,122 @@
+/* 기본 글꼴 & 여백 초기화 */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* 헤더 스타일 */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* 메인 콘텐츠 */
+main {
+  padding: 1rem;
+}
+
+/* 기사 스타일 */
+  article {
+  background: #f4f4f4;
+  padding: 20px;            /* 안쪽 여백 */
+  margin-top: 20px;         /* 바깥 여백 */
+  border: 2px solid #333;   /* 테두리 */
+  border-radius: 8px;       /* 모서리 둥글게 */
+}
+
+/* 광고 영역 */
+aside {
+  background: #ddd;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* 푸터 */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* 전체 글꼴 & 기본 글자 크기 */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* 제목 스타일 */
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* h1은 메인 제목 */
+h1 {
+  font-size: 2rem; /* 32px */
+}
+
+/* h2는 섹션 제목 */
+h2 {
+  font-size: 1.5rem; /* 24px */
+  margin-top: 20px;
+}
+
+/* 링크 스타일 */
+a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 사이드바 레이아웃 */
+.layout-sidebar {
+  display: flex;
+  gap: 20px;
+}
+
+/* main(콘텐츠) 우선 넓게, aside 좁게 */
+.layout-sidebar main { flex: 1; }
+.layout-sidebar aside { flex: 0 0 280px; }
+
+/* 히어로 섹션 */
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(#444, #222);
+  color: #fff;
+  border-radius: 12px;
+  margin: 20px;
+}
+.hero .cta {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #fff;
+  color: #222;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 12px;
+}
+.hero .cta:hover { opacity: .9; }
